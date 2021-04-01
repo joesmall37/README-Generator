@@ -6,22 +6,37 @@ module.exports = [
 	},
 	{
 		type: 'input',
-		name: 'location',
-		message: 'What is your location?',
+		name: 'title',
+		message: 'What is the title of the project?',
 	},
 	{
 		type: 'input',
-		name: 'bio',
-		message: 'Share a little bit about yourself.',
+		name: 'description',
+		message: 'Share a little bit about project.',
 	},
   {
     type: 'input',
-    name: 'linkedin',
-    message: 'What is your linkedin URL?',
+    name: 'usage',
+    message: 'What is the deployed link of your project? (Please put https:// in it)',
   },
+	{
+		type: 'input',
+		name: 'contribution',
+		message: 'Share instructions on how others can contribute to your project',
+	},
   {
     type: 'input',
-    name: 'github',
-    message: 'What is your Github URL?',
+    name: 'tests',
+    message: 'Share some of the tests you ran for your project.',
   },
+	{
+		type: 'input',
+		name: 'github',
+		message: 'What is your github URL? (Please put https:// in it)',
+	},
+	{
+		type: 'input',
+		name: 'email',
+		message: 'What is your email address?',
+	},
 ];
