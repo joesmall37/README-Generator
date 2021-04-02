@@ -1,25 +1,28 @@
 # Table of Contents:
 * [Title](#Title)
 * [Description](#Description)
+* [Table of Contents](#Table of Contents)
+* [Installation](#Installation)
 * [Usage](#Usage)
 * [Contribution](#Contribution)
 * [Tests](#Tests)
+* [Questions](#Questions)
 * [License](#License)
 * [Github](#Github)
 * [Email](#Email)
 # Title:
-# javascript
+# sebasitan's javascript README
 ## Description:
-its great
+sebasitan learned about javascript
 #Usage
-github.com
+sebastian.com
 #Contribution Guidelines
-contribute aas much as you'd like!
+reach out to me
 #Tests
-Some of the tests that I ran for this project are: tons.
+Some of the tests that I ran for this project are: tests.
 #License
 MIT License
-Copyright (c) 2021 joe
+Copyright (c) 2021 "sebastian"
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -38,4 +41,4 @@ SOFTWARE.
 #Github
 Please visit my github.com to visit my work.
 #Email
-My Email is small. Feel free to reach me here.
+My Email is sesbait. Feel free to reach me here.
