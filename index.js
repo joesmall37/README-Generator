@@ -49,6 +49,9 @@ inquirer
         case 'Boost':
           data.license = licenseText.boost;
           // badge = badgeIcon.boost;
+        case 'Mozilla':
+          data.license = licenseText.mozilla;
+          // badge = badgeIcon.boost;
           break;
       }
         const filename = `README.md`;

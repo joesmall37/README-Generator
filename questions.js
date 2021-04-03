@@ -2,22 +2,22 @@ module.exports = [
 	{
 		type: 'input',
 		name: 'name',
-		message: 'What is your name?',
+		message: 'Please enter your name?',
 	},
 	{
 		type: 'input',
 		name: 'title',
-		message: 'What is the title of the project?',
+		message: 'What is the title of your project?',
 	},
 	{
 		type: 'input',
 		name: 'description',
-		message: 'Share a little bit about project.',
+		message: 'Please share a description of your project.',
 	},
   {
     type: 'input',
     name: 'usage',
-    message: 'What is the deployed link of your project? (Please put https:// in it)',
+    message: 'Please enter the deployed link of your project? (Make sure to include https:// in your response',
   },
 	{
 		type: 'input',
@@ -27,23 +27,23 @@ module.exports = [
   {
     type: 'input',
     name: 'tests',
-    message: 'Share some of the tests you ran for your project.',
+    message: 'Please share any tests you ran for your project.',
   },
 	{
 		type: 'input',
 		name: 'github',
-		message: 'What is your github URL? (Please put https:// in it)',
+		message: 'What is your github URL? (Make sure to include https:// in your response',
 	},
 	{
 		type: 'input',
 		name: 'email',
-		message: 'What is your email address?',
+		message: 'Enter your email address?',
 	},
 	{
 		type: 'list',
 		name: 'license',
 		message: 'What license would you like to choose?',
-		choices: ["Mit", "Unlicense", "Boost"]
+		choices: ["Mit", "Unlicense", "Boost", "Mozilla"]
 
 	}
 ];
