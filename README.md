@@ -36,10 +36,8 @@
     - The user is prompted to enter their email address.
   - License
     - From a list provided, the user chooses a license for their project.
-
 ## Contribution 
   - Joseph Small
-
 ## License 
   - MIT
 
