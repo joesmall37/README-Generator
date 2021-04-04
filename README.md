@@ -38,6 +38,8 @@
     - From a list provided, the user chooses a license for their project.
 ## Deployed Application
   - [Link to video demo of application](https://drive.google.com/file/d/1dASEqOVEhMkXJmUxVOOoYUx33lfVEGMJ/view)
+  
+  -![image](https://user-images.githubusercontent.com/63420051/113513941-f6218b00-9539-11eb-8be6-8718facc0a82.png)
 ## Contribution 
   - Joseph Small
 ## License 
