@@ -2,7 +2,7 @@
 # Table of Contents:
 * [Title](#README-Generaot)
 * [Description](#Description)
-* [TableofContents](#TableofContents)
+* [Table of Contents](#Table of Contents)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Contribution](#Contribution)
