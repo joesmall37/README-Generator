@@ -1,6 +1,6 @@
 # README-Generator
 # Table of Contents:
-* [Title](#Title)
+* [Title](#README-Generaot)
 * [Description](#Description)
 * [TableofContents](#TableofContents)
 * [Installation](#Installation)
