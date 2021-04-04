@@ -12,7 +12,7 @@
 * [Github](#Github)
 * [Email](#Email)
 
-##Installation 
+## Installation 
 - Inquirer package was installed for the application
 
 
