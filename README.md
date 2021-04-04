@@ -1,5 +1,4 @@
 # README-Generator
-# README-Generator
 ## Table of Contents:
 * [Title](#README-Generaot)
 * [Description](#Description)
