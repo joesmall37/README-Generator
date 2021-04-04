@@ -42,7 +42,7 @@ module.exports = [
 		type: 'list',
 		name: 'license',
 		message: 'What license would you like to choose?',
-		choices: ["Mit", "Unlicense", "Boost", "Mozilla"]
+		choices: ["Mit", "Unlicense", "Boost", "Mozilla", "Apache", "eclipse", "gnu"]
 
 	}
 ];

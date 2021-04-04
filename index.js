@@ -1,9 +1,9 @@
 const fs = require("fs")
 const questions = require("./questions.js");
 const inquirer = require("inquirer");
-const licenseText = require("./license.js")
-
-// const generateMarkdown = require(‘./utils/generateMarkdown’);
+const licenseText = require("./license.js");
+const badges = require("./badges.js");
+let badge;
 
 const generateREADME = (answers) =>
 `# Table of Contents:
@@ -21,19 +21,19 @@ const generateREADME = (answers) =>
 # Title:
 # ${answers.title} README
 ## Description:
-${answers.description}
-#Usage
-${answers.usage}
-#Contribution Guidelines
-${answers.contribution}
-#Tests
-Some of the tests that I ran for this project are: ${answers.tests}.
-#License
-${answers.license}
-#Github
-Please visit my ${answers.github} to visit my work.
-#Email
-My Email is ${answers.email}. Feel free to reach me here.`;
+  - ${answers.description}
+## Usage
+- ${answers.usage}
+## Contribution Guidelines
+- ${answers.contribution}
+## Tests
+-  ${answers.tests}.
+## License
+- ${answers.license}
+
+## Questions
+- Please visit my ${answers.github} see more of my work.
+  - Please reach out to me with any furthers questions at ${answers.email}`;
 inquirer
     .prompt(questions)
     .then((data) => {
@@ -48,6 +48,15 @@ inquirer
           data.license = licenseText.boost;
         case 'Mozilla':
           data.license = licenseText.mozilla;
+          break;
+        case 'Apache':
+          data.license = licenseText.apache;
+          break;
+        case 'GNU':
+          data.license = licenseText.gnu;
+          break;
+        case 'Eclipse':
+          data.license = licenseText.eclipse;
           break;
       }
         const filename = `README.md`;
