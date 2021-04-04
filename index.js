@@ -40,18 +40,14 @@ inquirer
       switch (data.license) {
         case 'MIT':
           data.license = licenseText.mit;
-          // badge = badgeIcon.mit
           break;
         case 'Unlicense':
           data.license = licenseText.unlicense;
-          // badge = badgeIcon.unlicense;
           break;
         case 'Boost':
           data.license = licenseText.boost;
-          // badge = badgeIcon.boost;
         case 'Mozilla':
           data.license = licenseText.mozilla;
-          // badge = badgeIcon.boost;
           break;
       }
         const filename = `README.md`;

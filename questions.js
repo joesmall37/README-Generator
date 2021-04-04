@@ -13,22 +13,21 @@ module.exports = [
 		type: 'input',
 		name: 'description',
 		message: 'Please share a description of your project.',
-	},
-  {
+	},{
     type: 'input',
     name: 'usage',
-    message: 'Please enter the deployed link of your project? (Make sure to include https:// in your response',
-  },
+    message: 'Please enter the deployed link of your project? (Make sure to include https:// in your response'
+	},
 	{
 		type: 'input',
 		name: 'contribution',
-		message: 'Share instructions on how others can contribute to your project',
+		message: 'Share instructions on how others can contribute to your project'
 	},
-  {
+	{
     type: 'input',
     name: 'tests',
-    message: 'Please share any tests you ran for your project.',
-  },
+    message: 'Please share any tests you ran for your project.'
+	},
 	{
 		type: 'input',
 		name: 'github',
